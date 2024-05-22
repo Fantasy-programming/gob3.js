@@ -1,0 +1,108 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #fafaf9;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+main div {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.top {
+  display: block;
+  width: 30%;
+}
+
+.top label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.top div {
+  justify-content: space-between;
+}
+
+.top input {
+  height: auto;
+  flex-grow: 1;
+  width: auto;
+}
+
+main label {
+  text-wrap: nowrap;
+  align-self: center;
+}
+
+main input {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+main button {
+  text-transform: capitalize;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  transition: all 0.6s ease-in-out;
+}
+
+main button:disabled {
+  opacity: 0.5;
+  outline: 1px solid white;
+}
+
+ul {
+  transition: all 0.6s ease-in-out;
+  margin-top: 4rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.striked {
+  text-decoration: line-through;
+}
+
+li {
+  border: 2px dashed #2f2f2f;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9rem;
+}

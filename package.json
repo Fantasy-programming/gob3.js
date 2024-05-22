@@ -1,12 +1,13 @@
 {
-  "name": "gob3.js",
+  "name": "gob3.js-project",
+  "author": "Ngobo Ibara Ridy",
+  "license": "ISC",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "gob3.js is an open source minimal JavaScript library for building user interfaces.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve:examples": "npx http-server . -o ./examples/"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": []
 }
